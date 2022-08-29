@@ -11,10 +11,15 @@ Al iniciar el programa, este solicitará el usuario y contraseña necesarios par
 La primera vez que se inicie el programa, este se encargará de crear el esquema de la base de datos que utilizará para el funcionamiento del programa. 
 
 
-# Funcionamiento
+## Funcionamiento
 
 En la herramienta de Clientes se gestiona si un cliente ha contratado un servicio de nutrición, entrenamiento o ambos. 
 Cuando se añade un plan nutricional al cliente, este aparecerá automáticamente en la herramienta de Nutrición. Si se añade un bono a un cliente, podremos encontrar su perfil en la herramienta de Entrenamiento.
 Mientras no se añada ninguno de estos datos, los clientes no aparecerán en las herramientas correspondientes. 
 
 El programa no permite el borrado de datos ni de perfiles, para evitar la eliminación de información de la base de datos de manera accidental. Para esto, es necesario acceder a la base de datos a través de MySQL y ejecutar el borrado de la información deseada.
+
+
+## Importante
+
+Para que el programa pueda conectarse a la base de datos administrada con MySQL, es importante descargar e importar el MySQL Java Connector: [mysql-connector-java-5.1.13](http://www.java2s.com/Code/JarDownload/mysql/mysql-connector-java-5.1.13.jar.zip)
